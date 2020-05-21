@@ -9,7 +9,6 @@
 }
 /*----------------------------------SEKCJA HEADER-------------------------------------*/
 .header {
-    width: 100%;
     height: 70px;
     background-color: #FFFFFF;
     display: flex;
@@ -99,4 +98,106 @@
     text-decoration: none;
     color: #FFFFFF;
     text-align: center;
+}
+.open__img {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+
+/*----------------------------------SEKCJA STATYSTYKI-------------------------------------*/
+
+
+.statistic {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    align-items: center;
+}
+.container2 {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+.statistic__title {
+    font-font: var(--primary-font1);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    max-width: 155px;
+    text-align: center;
+}
+.article1__circle {
+    width: 63px;
+    height: 63px;
+    background-color: #FB3B64;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+.article1__img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+.article2__circle {
+    width: 63px;
+    height: 63px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 15px;
+    margin-left: 45px;
+}
+.article2__img {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+.article3__circle {
+    width: 63px;
+    height: 63px;
+    background-color: #55DFB4;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 15px;
+    margin-left: 35px;
+}
+.article3__img {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+.article__number {
+    font-family: var(--primary-font1);
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    letter-spacing: 6px;
+}
+.article__text {
+    font-family: var(--primary-font1);
+    font-size: 17px;
+    font-weight: 400;
+    color: #A5A5A5;
+    line-height: 20px;
 }
